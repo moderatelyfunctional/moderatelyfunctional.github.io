@@ -35,6 +35,8 @@ a {
 
 .navbar-option {
 	font-size: 0.75em;
+	font-family: 'Courier';
+	font-weight: 300;
 }
 
 .navbar-option:hover:not(.active) {
@@ -46,3 +48,29 @@ a {
 .active {
 	background-color: #B57459;
 }
+
+.thoughts {
+	margin-top: 2em;
+	width: 80%;
+}
+
+.thought {
+	cursor: pointer;
+}
+
+.thought-title {
+	font-size: 1.5em;
+}
+
+.thought-pub-date {
+	font-family: 'Courier';
+}
+
+
+
+
+
+
+
+
+
