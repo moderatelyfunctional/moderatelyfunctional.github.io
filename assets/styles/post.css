@@ -1,0 +1,40 @@
+body {
+	margin: 12vh auto;
+	max-width: 800;
+	background-color: #EBD7C3;
+
+	font-family: 'Montserrat';
+	padding: 1em;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+.active {
+	background-color: #B57459;
+}
+
+.thought-title {
+	font-size: 2.5em;
+}
+
+.thought-pub-date {
+	font-family: 'Courier';
+	margin-bottom: 1em;
+}
+
+@media only screen and (max-width: 800px) {
+	body {
+		margin-top: 1vh;
+	}
+}
+
+
+
+
+
+
+
+

@@ -5,11 +5,12 @@ body {
 	background-color: #EBD7C3;
 
 	font-family: 'Montserrat';
-	background-image: url('../imgs/jakub-dziubak-coffee-unsplash.jpg');
+	/*background-image: url('../imgs/jakub-dziubak-coffee-unsplash.jpg');*/
 	background-position: center; 
 	background-size: cover;
 	background-repeat: no-repeat;
 	max-height: 100vh;
+	padding: 1em;
 }
 
 a {
@@ -56,6 +57,12 @@ a {
 
 .thought {
 	cursor: pointer;
+	display: inline-block;
+	transition: transform .2s;
+}
+
+.thought:hover {
+	transform: scale(1.02);
 }
 
 .thought-title {
@@ -66,7 +73,18 @@ a {
 	font-family: 'Courier';
 }
 
+@media only screen and (max-width: 800px) {
+	body {
+		margin-top: 1vh;
+		margin-left: 0;
+		background-image: none;
+	}
 
+	.thoughts {
+		width: 100%;
+	}
+
+}
 
 
 
