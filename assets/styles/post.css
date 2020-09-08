@@ -12,16 +12,16 @@ a {
 	text-decoration: none;
 }
 
-h5 {
-	margin: 0;
+.underline-a {
+	color: #A53DEB;
+}
+
+.mathjax-block {
+	margin: 1em;
 }
 
 .active {
 	background-color: #B57459;
-}
-
-.thought-title {
-	/*font-size: 2.5em;*/
 }
 
 .thought-pub-date {
@@ -30,8 +30,9 @@ h5 {
 }
 
 .thought-paragraph {
-	line-height: 1.5em;
-	margin-bottom: 0.5em;
+	font-size: 1em;
+	line-height: 1.75em;
+	margin-bottom: 0.75em;
 }
 
 .back-container {
@@ -50,14 +51,35 @@ h5 {
 	body {
 		margin-top: 1vh;
 	}
+
+	h1 {
+		font-size: 2em;
+	}
+
+	h2 {
+		font-size: 1.75em;
+	}
+
+	h3 {
+		font-size: 1.65em;
+	}
+
+	blockquote {
+		font-size: 1.5em;
+	}
+
+	.thought-paragraph {
+		font-size: 1.5em;
+	}
+
 }
 
 blockquote {
 	margin: 0;
 	margin-bottom: 1em;
 	padding: 10px;
-	line-height: 1.5em;
-	border-left: 6px solid #444;
+	line-height: 1.75em;
+	border-left: 3px solid #444;
 
 }
 
